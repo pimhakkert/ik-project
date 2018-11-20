@@ -1,0 +1,241 @@
+@font-face {
+  font-family: bebas_neue;
+  src: url(../../fonts/BebasNeue-Regular.ttf);
+}
+
+html{
+  height:100%;
+}
+
+body{
+  background-image: url(../../imgs/sunset4.jpg);
+  min-height: 100%;
+  margin: 0px;
+  position: relative;
+}
+
+body::after{
+  content:'';
+  display: block;
+  height: 100px;
+}
+
+#site {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-rows: auto 1fr 2fr;
+  grid-template-areas:
+  "title navbar navbar"
+  "content content content"
+  "about about about";
+}
+
+#titlediv{
+  margin: 0px;
+  padding: 0px;
+  grid-area: title;
+}
+
+#titletext{
+  color: #e8fff2;
+  text-align: center;
+  font-family: bebas_neue;
+}
+
+#navbar{
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+  border-left-style: solid;
+  border-left-color: black;
+  border-left-width: 4px;
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  background-color: #aaa;
+  grid-area: navbar;
+  grid-template-columns: 12.71% 12.71% 12.71% 15.21% 16.21% 17.21% 13.21%;
+}
+
+#home_div{
+  background-color: #bbb;
+  grid-column: 1;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#home_div:hover{
+  background-color: #6b6b6b;
+}
+#dayinlife_div{
+  grid-column: 2;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#dayinlife_div:hover{
+  background-color: #6b6b6b;
+}
+#schoolwerk_div{
+  background-color: #bbb;
+  grid-column: 3;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#schoolwerk_div:hover{
+  background-color: #6b6b6b;
+}
+#portfolio_div{
+  grid-column: 4;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#portfolio_div:hover{
+  background-color: #6b6b6b;
+}
+#downloads_div{
+  background-color: #bbb;
+  grid-column: 5;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#downloads_div:hover{
+  background-color: #6b6b6b;
+}
+#socialmedia_div{
+  grid-column: 6;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#socialmedia_div:hover{
+  background-color: #6b6b6b;
+}
+#contact_div{
+  background-color: #bbb;
+  grid-column: 7;
+  text-align: center;
+  font-family: bebas_neue;
+}
+#contact_div:hover{
+  background-color: #6b6b6b;
+}
+
+#mylife_div{
+  grid-area: content;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+#mylife_text{
+  padding-top: 6%;
+  color: #e8fff2;
+  font-family: sans-serif;
+  font-size: 5em;
+}
+
+#mylife_text2{
+  color: #e8fff2;
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+#pictures{
+  padding-top: 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "left mid right";
+}
+
+#pim_ship{
+  grid-area: left;
+}
+
+#pim_ship_pic{
+  margin-left: 10%;
+  width: 50%;
+  height: auto;
+}
+
+#pim_ship_textdiv{
+  margin-left: 30%;
+  width: 50%;
+  height: 35%;
+  background-color: rgba(198, 198, 198,1);
+}
+
+#pim_ship_text{
+  padding: 5% 5% 0% 5%;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#pim_detect{
+  grid-area: mid;
+  font-family: sans-serif;
+}
+
+#pim_detect_pic{
+  width: 50%;
+  height: auto;
+}
+
+#pim_detect_textdiv{
+  margin-left: 25%;
+  width: 50%;
+  height: 35%;
+  background-color: rgba(198, 198, 198,1);
+}
+
+#pim_detect_text{
+  padding: 5% 5% 0% 5%;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#pim_diploma{
+  grid-area: right;
+  font-family: sans-serif;
+}
+
+#pim_diploma_pic{
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+#pim_diploma_textdiv{
+  margin-left: 20%;
+  width: 50%;
+  height: 35%;
+  background-color: rgba(198, 198, 198,1);
+}
+
+#pim_diploma_text{
+  padding: 5% 5% 0% 5%;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#footer_div {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 97S;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+    height: 9%;
+}
+
+#footer_text{
+  padding-left: 1%;
+  padding-top: 0.9%;
+  font-family: sans-serif;
+  font-size: 2em;
+  color: white;
+}
