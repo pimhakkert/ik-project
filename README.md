@@ -1,7 +1,7 @@
 # Ik Project
 
-# Single person project
-# Duration: 3 weeks
+### Single person project
+### Duration: 3 weeks
 
 ## Project details:
 We were tasked with making a website that has a Content Management System using our knowledge we gained from the past 1.5 month.
