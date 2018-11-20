@@ -9,5 +9,5 @@ I wanted to create my own CMS in PHP, a language that I haven't used before. Unf
 
 ## Project setup:
 
-The 'index.php' file needs to be in the root webserver folder, the 'ik_project' folder will be in the root as well.
+You can just download the 'ik_project' folder onto your webhost and then visit it's index.php.
 
